@@ -1,0 +1,14 @@
+*.cache
+*.log
+*.o
+*.status
+.*.sw?
+.deps
+/configure
+/depcomp
+/gl-hello-world
+/install-sh
+/missing
+Makefile
+Makefile.in
+aclocal.m4
