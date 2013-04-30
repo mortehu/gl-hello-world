@@ -1,7 +1,7 @@
 AC_INIT(gl-hello-world,1.0.0)
 AM_INIT_AUTOMAKE([-Wall -Werror foreign])
 
-PKG_CHECK_MODULES([PACKAGES], [x11 >= 1.5 gl >= 8])
+PKG_CHECK_MODULES([PACKAGES], [x11 >= 1.4 gl >= 8])
 
 AC_SUBST(PACKAGES_CFLAGS)
 AC_SUBST(PACKAGES_LIBS)
