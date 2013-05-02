@@ -112,6 +112,8 @@ X11_Init (void)
   if (!glXMakeCurrent (X11_display, X11_window, X11_glxContext))
     errx (EXIT_FAILURE, "glXMakeCurrent returned false");
 
+  glewInit ();
+
   X11_xa_wm_delete_window = XInternAtom (X11_display, "WM_DELETE_WINDOW", False);
 
   XSynchronize (X11_display, False);
