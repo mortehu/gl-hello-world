@@ -4,6 +4,8 @@
 *.status
 .*.sw?
 .deps
+/aclocal.m4
+/compile
 /configure
 /depcomp
 /gl-hello-world
@@ -11,4 +13,3 @@
 /missing
 Makefile
 Makefile.in
-aclocal.m4
